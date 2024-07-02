@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mini-util"
-version = "0.1.8"
+version = "0.1.9"
 description = "A minimalistic Python util library for some daily usage"
 authors = ["Harvey Tung <haotingtong30@gmail.com>"]
 readme = "README.md"

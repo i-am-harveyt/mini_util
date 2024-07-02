@@ -25,6 +25,14 @@ poetry publish --build  # this will publish to pypi and build to `dist/`, you ma
 # or you can also build this using local file
 poetry build  # files will store in `dist/`
 pip install dist/mini_util-0.1.2-py3-none-any.whl --force-reinstall
-
 # and you can use the cli now
+```
+
+## Cli Usage
+
+```sh
+mutil -s="Hello World"
+# or
+mutil --string="Hello World"
+
 ```
