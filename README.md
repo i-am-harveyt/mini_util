@@ -1,17 +1,20 @@
-# mini_util
+# mini\_util
+
+## Introduction
+
+This is a simple example that construct a PyPI package with poetry.
 
 ## Project Setup
 
-
 Commands and steps:
 
-```
+```sh
 # init project
 poetry new <package-name>
 
 cd <package-name>
 
-# you can init your git here
+# you can init your git, and do something with it here
 
 # if ready to release
 poetry version  # this will display version
