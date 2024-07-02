@@ -16,7 +16,7 @@ build-backend = "poetry.core.masonry.api"
 
 # you can set your scripts here
 [tool.poetry.scripts]
-mutil = "mini_util.cli"
+mutil = "mini_util.cli:main"
 
 [tool.poetry.urls]
 repository = "https://github.com/i-am-harveyt/mini_util"
