@@ -19,4 +19,4 @@ build-backend = "poetry.core.masonry.api"
 mutil = "mini_util.cli:main"
 
 [tool.poetry.urls]
-repository = "https://github.com/i-am-harveyt/mini-util"
+repository = "https://github.com/i-am-harveyt/mini_util"
