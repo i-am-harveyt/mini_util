@@ -1,10 +1,18 @@
-def do_n(n: int):
-    def inner(f):
-        def wrapper(*args, **kwargs):
-            ret = [None] * n
-            for i in range(n):
-                ret[i] = f(*args, **kwargs)
+class DoN:
+    @staticmethod
+    def do_n(n: int):
+        """
+        Do function n times
 
-        return wrapper
+        Args
+            n (int): the number you want to repeat
+        """
+        def inner(f):
+            def wrapper(*args, **kwargs):
+                ret = [None] * n
+                for i in range(n):
+                    ret[i] = f(*args, **kwargs)
 
-    return inner
+            return wrapper
+
+        return inner
