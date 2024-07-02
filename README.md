@@ -20,4 +20,11 @@ cd <package-name>
 poetry version  # this will display version
 poetry version 0.1.2  # this will set version to 0.1.2
 poetry publish --build  # this will publish to pypi and build to `dist/`, you may need to wait around 2 mins to update
+
+# after publish, you may just use pip install <my-package> to install
+# or you can also build this using local file
+poetry build  # files will store in `dist/`
+pip install dist/mini_util-0.1.2-py3-none-any.whl --force-reinstall
+
+# and you can use the cli now
 ```
